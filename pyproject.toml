@@ -1,0 +1,20 @@
+[project]
+name = "e3-hierarchical-models-and-testing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "yuxru", email = "yuxiaje@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "bambi>=0.20.0",
+    "ipykernel>=7.3.0",
+]
+
+[project.scripts]
+e3-hierarchical-models-and-testing = "e3_hierarchical_models_and_testing:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
